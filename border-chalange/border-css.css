@@ -1,0 +1,55 @@
+p {
+    border-color: rgb(15, 15, 189);
+}
+
+p.solid {
+    border-style: solid;
+    height: 200px;
+}
+
+p.dotted {
+    border-style: dotted;
+    height: 200px;
+    border-width: 10px;
+}
+
+p.dashed {
+    border-style: dashed;
+    height: 40px;
+    border-bottom-width: 15px;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.gradadasi {
+    border-style: solid;
+    border-width: 10px;
+    border-color: linear-gradient(blue, 0, white);
+}
+
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
