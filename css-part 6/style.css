@@ -1,0 +1,145 @@
+/* Judul Utama */
+.tittle-1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* table utama */
+table,th,td{
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table,th,td{
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color: rgb(214, 246, 255);
+}
+
+.no-equipment{
+    background-color: white !important;
+}
+
+.row-1{
+    border-top: 3px solid rgb(10, 46, 80);
+}
+
+th{
+    background-color: rgb(37, 80, 149);
+}
+
+/* sudut tumpul */
+.br-r{
+    border-top-right-radius: 12px;
+}
+.br-l{
+border-top-left-radius: 12px;
+}
+
+
+/* warna able belang */
+
+.blang:nth-child(even){
+    background-color: #bef1fd
+}
+
+/* form style */
+.no-equipment{
+    background-color: white !important;
+}
+
+
+.bold{
+    font-weight: 600;
+    color: rgb(98, 98, 98);
+}
+
+
+
+.custom-option{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select[type=option] {
+    width: 130px;
+    /* box-sizing: border-box; */
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/ud-arrow.png');
+    background-size: 24px 25px;
+    background-position: 102px 0px;
+    background-repeat: no-repeat;
+    padding: 3px 20px 3px 10px;
+    transition: width 0.4s ease-in-out;
+    
+  } 
+  
+  /* select[type=option]:focus {
+    width: 100%;
+  } */
+
+
+.r-side{
+    border-right: solid 1px grey ;
+    
+}
+
+.t-side{
+    border-top:solid 1px grey ;
+}
+
+.inner-side{
+    padding: 10px;
+
+}
+.b-white-sides{
+    font-weight: 600;
+    color: white;
+    text-shadow:2px 2px 2px grey;
+}
+
+.hiden-bar{
+    margin: 50px;
+}
+
+.border-rad{
+    border-radius: 12px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.r-side{
+    border-right: solid 1px grey ;
+}
+
+.b-white-sides{
+    font-weight: 600;
+    color: white;
+    text-shadow:2px 2px 2px grey;
+}
+
+.hiden-bar{
+    margin: 50px;
+}
+
+.border-rad{
+    border-radius: 12px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
