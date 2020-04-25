@@ -1,0 +1,101 @@
+
+* {
+    font-family: "Playfair Display";
+}
+
+.navbar {
+    font-size: 0.85rem;
+}
+
+.navbar-brand {
+    font-family: "Inconsolata";
+    letter-spacing: 0.3rem;
+    font-size: 1.6rem;
+}
+
+.banner {
+    height: 70vh;
+    background-image: url("../img/pic1.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0 1rem 0 1rem;
+}
+
+.banner-spot {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-color: #b6a785;
+    background-image: url("../img/watermark.png");
+}
+
+.banner-res {
+    font-size: 2.5rem;
+}
+
+.cat-text {
+    font-family: "Ubuntu";
+    color: #6c757d;
+}
+
+.comment {
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+input {
+    font-family: "Ubuntu";
+    border: none;
+    background-color: transparent;
+}
+
+.bordered {
+    font-family: "Playfair Display";
+    border-bottom: 1px solid black;
+} 
+
+.email-input {
+    width: 320px;
+}
+
+.ubuntu {
+    font-family: "Ubuntu";
+}
+
+input:focus{
+    outline: none;
+}
+
+.newsletter{
+    margin: 0 auto;
+    float: none;
+}
+
+
+footer {
+    background-color: #e9ecef;
+    margin-top: 50px;
+}
+
+.avatar{
+    width: 72px !important;
+    height: 72px !important;
+}
+
+.text-cap{
+    text-transform: capitalize;
+}
+
+.text-color-spc{
+    color: #b6a785 !important;
+}
+
+.bg-color-spc{
+    background: #b6a785 !important;
+}
+
+::placeholder {
+    text-transform: uppercase;
+}
